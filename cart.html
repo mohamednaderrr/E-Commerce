@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-commerce</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="./img/logo.png" class="logo" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-shopping"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </section>
+
+    <section id="page-header" class="cart-header">
+
+        <h2>#Shopping_List</h2>
+
+        <p>We Want You to Buy Again Don't Forget!</p>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i style="color: #000;" class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="./img/products/f1.jpg" alt="f1"></td>
+                    <td>Tommy Hilfiger</td>
+                    <td>$90</td>
+                    <td><input type="number" name="" id=""></td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i style="color: #000;" class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="./img/products/f2.jpg" alt="f2"></td>
+                    <td>Ralph Lauren</td>
+                    <td>$120</td>
+                    <td><input type="number" name="" id=""></td>
+                    <td>$120</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i style="color: #000;" class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="./img/products/f3.jpg" alt="f3"></td>
+                    <td>Hugo Boss</td>
+                    <td>$110</td>
+                    <td><input type="number" name="" id=""></td>
+                    <td>$110</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" name="Enter Your Coupon" id="">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$320</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$320</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address :</strong> Egypt , Dakahlia , Mansoura</p>
+            <p><strong>Phone :</strong> +20 01017296998 / +20 01556900232</p>
+            <p><strong>Hours :</strong> 8:00 -23:00, Friday</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100003506793150"></a> <i
+                        class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/Mo_Nader_1?t=Bs9YOdDqGGASkbIgs9im3Q&s=08"> <i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed-naderrr/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/mohamednaderrr"><i class="fab fa-github"> </i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App">
+                <img src="img/pay/play.jpg" alt="play">
+                <p>Secured Payment Gateways</p>
+                <img class="pay" src="img/pay/pay.png" alt="pay">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 , Mohamed Nader Rashad</p>
+        </div>
+    </footer>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/Style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>E-commerce</title>
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="./img/logo.png" class="logo" alt="logo"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-shopping"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+
+                </ul>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+
+            <h2>#KnowUs</h2>
+
+            <p>Delivers Quality Products Tailored to You</p>
+
+        </section>
+
+        <section id="about-head" class="section-p1">
+            <img src="./img/about/a6.jpg" alt="a6">
+            <div>
+                <h2>Who We Are?</h2>
+                <p>At KnowUs, We Are a Leading Online Clothing Store Dedicated to Providing Stylish, High-Quality
+                    Apparel
+                    for Every Occasion. Our Mission Is to Bring the Latest Trends and Timeless Classics to Your
+                    Wardrobe,
+                    All at Affordable Prices. With a Focus on Customer Satisfaction, We Aim to Make Your Shopping
+                    Experience
+                    Seamless, Enjoyable, and Rewarding. Discover Who We Are and Why Fashion Lovers Choose KnowUs</p>
+
+                <abbr title="">Create Stunning Images With As Much Or As little Control As You Like Thanks To a Choice
+                    Of
+                    Basic And Creative Modes.</abbr>
+
+                <br><br>
+
+                <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Create Stunning Images With As Much Or
+                    As
+                    little Control As You Like
+                    Thanks To a Choice Of Basic And Creative Modes.</marquee>
+            </div>
+        </section>
+
+        <section id="about-app" class="section-p1">
+            <h1>Download Our <a href="">App</a></h1>
+            <div class="video">
+                <video autoplay muted loop src="./img/about/1.mp4"></video>
+            </div>
+        </section>
+
+        <section id="feature" class="section-p1">
+            <div class="fe-box">
+                <img src="img/features/free_shipping.jpeg" alt="fe-box">
+                <h6>Free Shipping</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/online_order.png" alt="fe-box">
+                <h6>Online Order</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/save_money.png" alt="fe-box">
+                <h6>Save Money</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/Promotions.png" alt="fe-box">
+                <h6>Promotions</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/happy_sell.png" alt="fe-box">
+                <h6>Happy Sell</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/call_center.png" alt="fe-box">
+                <h6>F24/7 Support</h6>
+            </div>
+        </section>
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get E-mail Updates About Our Latest Shop and <span>Special Offers</span></p>
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Your Email Address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="logo">
+                <h4>Contact</h4>
+                <p><strong>Address :</strong> Egypt , Dakahlia , Mansoura</p>
+                <p><strong>Phone :</strong> +20 01017296998 / +20 01556900232</p>
+                <p><strong>Hours :</strong> 8:00 -23:00, Friday</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/profile.php?id=100003506793150"></a> <i
+                            class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Mo_Nader_1?t=Bs9YOdDqGGASkbIgs9im3Q&s=08"> <i
+                                class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamed-naderrr/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/mohamednaderrr"><i class="fab fa-github"> </i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="App">
+                    <img src="img/pay/play.jpg" alt="play">
+                    <p>Secured Payment Gateways</p>
+                    <img class="pay" src="img/pay/pay.png" alt="pay">
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 , Mohamed Nader Rashad</p>
+            </div>
+        </footer>
+        <script src="./JS/Script.js"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>
